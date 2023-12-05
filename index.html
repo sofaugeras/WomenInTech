@@ -3,62 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Lien vers les feuilles de styles globales pour le site, ne pas toucher -->
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="stylesNav.css">
+    <!-- Including the Lobster font from Google's Font Directory -->
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lobster" />
+    <!-- la balise Title permet de faire apparaitre le titre du site dans l'onglet du navigateur -->
     <title>Portraits de Femmes en Sciences</title>
 </head>
 <body>
-
+     <!--Bandeau de titre du site -->
     <header>
         <h1>Portraits de Femmes en Sciences</h1>
     </header>
-
+    <!-- Code HTML pour la barre de navigation du site   -->
     <nav>
-        <ul>
-            <li><a href="#mathematique">Mathématique</a></li>
-            <li><a href="#biologie">Biologie</a></li>
-            <li><a href="#chimie">Chimie</a></li>
-            <li><a href="#physique">Physique</a></li>
-            <li><a href="#informatique">Informatique</a></li>
-            <li><a href="#astrophysique">Astrophysique</a></li>
-            <li><a href="#ingenierie">Ingénierie</a></li>
-            <li><a href="#medecine">Médecine</a></li>
+        <ul class="fancyNav">
+            <li id="home"><a href="./index.html" class="homeIcon">Home</a></li>
+            <li id="Math"><a href="/math/index.html">Mathématique</a></li>
+            <li id="Chimie"><a href="/Chimie/index.html">Chimie</a></li>
+            <li id="Physique"><a href="/Physique/index.html">Physique</a></li>
+            <li id="Info"><a href="Info/index.html">Informatique</a></li>
+            <li id="Astro"><a href="/astrophysique/index.html">Astrophysique</a></li>
+            <li id="Inge"><a href="/ingenierie/index.html">Ingénierie</a></li>
+            <li id="Medecine"><a href="/medecine/index.html">Médecine</a></li>
         </ul>
     </nav>
 
     <main>
-        <input type="radio" id="slide1" name="slide" checked>
-        <input type="radio" id="slide2" name="slide">
-        <!-- Ajoutez d'autres input pour chaque image -->
 
-        <section id="mathematique" class="slider">
-            <div class="slide" style="background-image: url('portrait_image1.jpg');">
-                <div class="details">
-                    <h2>[Nom de la femme 1]</h2>
-                    <p>[Description ou citation]</p>
-                    <a href="[lien_vers_plus_dinfos]">En savoir plus</a>
-                </div>
-            </div>
-            <!-- Ajoutez d'autres div pour chaque image -->
-        </section>
-
-        <section id="biologie" class="slider">
-            <div class="slide" style="background-image: url('portrait_image2.jpg');">
-                <div class="details">
-                    <h2>[Nom de la femme 2]</h2>
-                    <p>[Description ou citation]</p>
-                    <a href="[lien_vers_plus_dinfos]">En savoir plus</a>
-                </div>
-            </div>
-            <!-- Ajoutez d'autres div pour chaque image -->
-        </section>
-
+        <article class="portrait">
+            <h2>Présentation </h2>
+            <p>
+                article de présentation du projet
+            </p>
+        </article>
+        
 
 
     </main>
 
     <footer>
-        <p>&copy; 2023 Portraits de Femmes en Sciences</p>
+        <mark>&copy; 2023 Portraits de Femmes en Sciences</mark>
     </footer>
 
-    <!-- Ajoutez ceci à la fin de votre fichier body pour inclure la bibliothèque Slick -->
-    <script
+</body>
