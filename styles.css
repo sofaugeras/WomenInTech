@@ -39,8 +39,10 @@ main {
 }
 
 .portrait img {
-    width: 100%;
-    height: auto;
+    /* width: 100%;
+    height: auto; */
+    width: 200px;
+    height: 250px;
 }
 
 .details {

@@ -1,0 +1,78 @@
+
+
+h2 {font-family: 'Roboto', Marker Felt;
+	letter-spacing: 1px; 
+	margin-bottom: 0,1px; 
+	margin-left: 10px;
+	text-align: center;
+	font-size: 22px;
+	color: darkpink 
+	 
+	}
+h3 {font-family: 'Roboto', fantasy;
+	letter-spacing: 1px; 
+	margin-bottom: 0; 
+	text-align: center;
+	font-weight: bold;
+	color: darkpink
+	}
+p  {font-family:'Roboto', sans-serif;
+    letter-spacing: 1px;
+	margin-top: 0; 
+	text-align: center;
+	color: black 
+	}
+figcaption {
+	font-family:'Roboto', sans-serif;
+	font-size: 15px;
+	letter-spacing: 1px;
+	margin-top: 0.5em; 
+	text-align: center;
+	color: black 
+	}	
+
+.I {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	}
+a:link { 
+	font-weight: bold; 
+	text-decoration: none; 
+	color: white;
+	}
+a:visited { 
+	font-weight: bold; 
+	text-decoration: none; 
+	color: blue;
+	}
+a:hover, a:focus, a:active { 
+	text-decoration: underline; 
+	color: blue;
+	}
+
+.article1 {
+		display: inline-block;
+		width: 255px;
+		height: 270px;
+		text-align: center;
+		margin-right: 2em;
+		}
+.article2 {
+		display: inline-block;
+		text-align: center;
+		width: 400px;
+		height: 275px;
+		margin-right: 20px;
+		margin-left: 100px;
+		margin-bottom: 5px;
+		margin-top: 5px;
+		border: 4px solid #212529;
+		background-color: pink;
+		}
+div.page {
+		width: 1000px;
+		margin-left: auto;
+		margin-right: auto;
+		background-color:#F08080;
+		}

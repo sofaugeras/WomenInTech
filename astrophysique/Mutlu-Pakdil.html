@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Lien vers les feuilles de styles globales pour le site, ne pas toucher -->
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="stylesheet" href="../stylesNav.css">
+    <!-- Lien vers la feuille de style spécifique pour votre portrait -->
+    <link rel="stylesheet" href="css/Burçinindex.css">
+    <!-- Including the Lobster font from Google's Font Directory -->
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lobster" />
+    <!-- la balise Title permet de faire apparaitre le titre du site dans l'onglet du navigateur -->
+    <title>Portraits de Femmes en Sciences</title>
+</head>
+<body>
+	<div class="page">
+
+    <!--Bandeau de titre du site -->
+    <header>
+        <h1>Portraits de Femmes en Sciences: Burçin Mutlu-Pakdil</h1>
+    </header>
+    <!-- Code HTML pour la barre de navigation du site   -->
+    <nav>
+        <ul class="fancyNav">
+            <li id="home"><a href="../index.html" class="homeIcon">Home</a></li>
+            <li id="Math"><a href="../math/index.html">Mathématique</a></li>
+            <li id="Chimie"><a href="../Chimie/index.html">Chimie</a></li>
+            <li id="Physique"><a href="../Physique/index.html">Physique</a></li>
+            <!-- Item ci dessous à modifier en fonction de votre domaine -->
+            <li id="Info"><a href="../Info/index.html">Informatique</a></li>
+            <li id="Astro"><a href="../astrophysique/index.html">Astrophysique</a></li>
+            <li id="Inge"><a href="../ingenierie/index.html">Ingénierie</a></li>
+            <li id="Medecine"><a href="../medecine/index.html">Médecine</a></li>
+        </ul>
+    </nav>
+
+    <main>
+ 
+        <div>
+			<article class="portrait">
+				<h2>Sa biographie:</h2>
+				<figure>
+					<a href="#A1"><img src="Images/Burçinow.png" width="30%" class="I" alt="Burçin Mutlu-Pakdil aujourd'hui"></a>
+					<figcaption>Burçin Mutlu-Pakdil aujourd'hui</figcaption>
+				</figure>
+			</article>
+			<article class="portrait">
+				<h2>Un combat pour les femmes et pour sa religion:</h2>
+				<figure>
+					<a href="#A2"><img src="Images/Burcinemo.jpg" width="30%" class="I" alt="¨Photo de Burçin et sa galaxie"></a>
+					<figcaption>Burçin Mutlu-Pakdil a grandi en Turquie. Enfant, elle aimait regarder les étoiles dans le ciel.<br> 
+					            Elle ignorait encore qu’un jour, grâce à ses compétences scientifiques, une galaxie située à 359 millions d'années-lumière de la Terre porterait son prénom.</figcaption>
+				</figure>
+			</article>
+		</div>
+
+        <!-- debut de la biographie --> 
+        <div id="A1">
+            <h2>Burçin Mutlu-Pakdil en quelques phrases:</h2>
+            <img src="Images/burcinenqlqmots.jpg" width="100%" class="I" alt="Photo de Margaret Hamlton travaillant sur un module Apollo"/>
+        </div>
+        <div >
+                <br><p>Le professeur Burcin Mutlu-Pakdil est une astrophysiciennne d'observation qui travaille avec de grandes enquêtes d'imagerie et des observations de suivi sur mesure à partir de grands télescopes. 
+				   Son principal objectif scientifique est de comprendre la nature de la matière noire et de la formation des galaxies par le biais d'observations de galaxies voisines. 
+				   Elle mène plusieurs campagnes d'observation pour découvrir et caractériser les galaxies naines au sein du groupe local et au-delà. 
+				   Ses œuvres ont été présentées par CNN, Science Daily, Astronomy Magazine, Gizmodo, Independent, MPR News, entre autres. 
+				   Damon Brown a écrit dans son Inc (Chronique en ligne du magazine) : "De nombreuses organisations se consacrent à remplir le pipeline STEM avec plus de filles et de femmes. D'autres soutiennent la cause en étant un exemple. TED Fellow Burcin représente en étant l'une des astrophysiciennes les plus remarquables aujourd'hui."</p>
+                <hr>
+				<h2>Quelques photos de Burçin</h2>
+				<div class="slideshow-container">
+
+				<div class="mySlides fade">
+					<div class="numbertext">1 / 3</div>
+					<img src="Images/burcinTED.jpg" style="width:100%" >
+					<div class="text">Burçin à la remise des prix TED Fellow</div>
+				</div>
+
+				<div class="mySlides fade">
+					<div class="numbertext">2 / 3</div>
+					<img src="Images/burcingalaxie.jpg" style="width:100%" height="150%">
+					<div class="text">La galaxie rare decouverte par Burçin</div>
+				</div>
+
+				<div class="mySlides fade">
+					<div class="numbertext">3 / 3</div>
+					<img src="Images/burcinpod.jpeg" style="width:95%">
+					<div class="text">Burçin sur un podcast scientifique</div>
+				</div>
+
+				</div>
+				<br>
+
+				<div style="text-align:center">
+					<span class="dot"></span> 
+					<span class="dot"></span> 
+					<span class="dot"></span> 
+				</div>
+
+			<script>
+			let slideIndex = 0;
+			showSlides();
+
+			function showSlides() {
+				let i;
+				let slides = document.getElementsByClassName("mySlides");
+				let dots = document.getElementsByClassName("dot");
+				for (i = 0; i < slides.length; i++) {
+					slides[i].style.display = "none";  
+				}
+				slideIndex++;
+				if (slideIndex > slides.length) {slideIndex = 1}    
+				for (i = 0; i < dots.length; i++) {
+					dots[i].className = dots[i].className.replace(" active", "");
+				}
+				slides[slideIndex-1].style.display = "block";  
+				dots[slideIndex-1].className += " active";
+				setTimeout(showSlides, 5000);
+				}
+			</script>
+                <hr>
+                <p>En tant que femme étudiant en Astrophysique, Burçin fut rabaissée et son éducation fut semée d'embuches</p>
+                    <p class="color">Elle décida de faire des études de physique : c’est à ce moment que des obstacles commencèrent à se mettre en travers de sa route. 
+					                 Tout d’abord, elle dût quitter Istanbul, sa ville natale, pour Ankara.« Même si ma famille soutenait ma décision et m’encourageait à suivre ma passion, des amis et des proches disaient que les filles n’avaient pas à quitter la maison pour étudier », confie Burçin Mutlu-Pakdil. 
+									 Sa décision de déménager pour étudier les sciences fut même remise en cause par un professeur à l’Université. 
+									 Sans surprise, Burçin était l’une des rares étudiantes de sa classe.</p>
+				<blockquote>
+                <p>« En tant que femme qui étudiait la physique, j’avais l’impression de ne pas être à ma place. 
+				     J’ai appris à ne pas accorder d’importance aux commentaires et à uniquement me concentrer sur ma passion. »</p>
+				</blockquote>
+                    <p class="color"> À l’époque, en Turquie, les femmes qui allaient à l’université n’avaient pas le droit de porter le voile. 
+					                  Aujourd’hui, cela est révolu.</p>
+				<blockquote>
+                <p>« Je portais des chapeaux et j’essayais de trouver comment me couvrir la tête, mais c’était déconcertant. 
+				     Je devais déjà affronter les préjugés parce que j’étais une femme qui étudiait les sciences. 
+					 En me forçant à changer ma tenue, on m’obligeait à être quelqu’un que je n’étais pas. »</p>
+                </blockquote>
+                    <p class="color">Bien qu’elle eut à gérer de nouvelles différences culturelles à son arrivée aux États-Unis pour son Master à l’Université Texas Tech, puis à l’Université du Minnesota-Twin Cities où elle fit un doctorat en astrophysique, elle trouva l’environnement plus accueillant.<br></p>
+                <blockquote>
+                <p>« J’étais dans un nouveau pays et de nombreuses choses étaient différentes. 
+				     Mais comme j’étais moi-même et que je pouvais m’habiller comme je le voulais, j’étais plus heureuse, et ce même si les autres problèmes n’étaient pas résolus. »</p>
+				</blockquote>
+        </div>
+        <!-- debut du combat féministe --> 
+        <div id="A2">
+            <h2>Une découverte révolutionnaire:</h2>
+            <img src="./Images/burcinbg.jpeg" width=20%" alt="Burçin photo"/>
+        </div>
+        <div>
+            <br><p>La première fois que Burçin Mutlu-Pakdil et son équipe ont vu la petite galaxie PGC 1000714, ils pensaient qu’il s’agissait là d’une galaxie de type Hoag et étaient très heureux de leur découverte. Mais en étudiant avec plus d’attention PGC 1000714, l’astrophysicienne fut surprise de voir que cette galaxie rare cachait quelque chose.
+			    « Entre l’anneau extérieur bleu et le noyau central rouge, nous avons découvert un anneau interne diffus de couleur rouge qui entourait le noyau », explique-t-elle. « Nous étions en train d’observer une galaxie qui n’avait jamais été vue auparavant. »
+                Ce corps céleste fut baptisé galaxie de Burçin et les astronomes essaient désormais de résoudre le mystère intriguant qui entoure la formation d’un objet si étrange. Si chez les galaxies de type Hoag, le noyau central rouge est plus vieux que l’anneau extérieur bleu, pour la galaxie de Burçin, l’anneau interne supplémentaire est le plus vieux et se serait donc formé en premier.
+            </p> 
+            <blockquote>
+                <p class="color">Pakdel a reçu de nombreux prix au long de sa carrière, notamment le Prix des 10 meilleures personnalités au monde, une bourse TED en 2018 et une bourse TED pour les études universitaires, en 2020. Elle a été présentée dans la revue « National Geographic », le magazine « Marie Claire », le documentaire « Breakthrough : Portraits of Women in Science », et sa conférence a reçu plus de 2,5 millions de vues. 
+
+                </p>
+            </blockquote>
+            <hr>
+            <article class="article2">
+                <h3>Interview de Burçin Mutlu-Pakdil pour Mission Unstoppapble:</h3>
+                <video width="320" height="200" controls poster="Images/photovideo3.png">
+                    <source src="Images/burcinvideo1.mp4" type=video/mp4>
+                </video>
+            </article>
+            <article class="article2">
+                <h3>Burçin à sa remise du TED Fellow en 2018</h3>
+                <video width="320" height="223" controls poster="Images/burcinted.jpg">
+                    <source src="Images/burcinvideoTED.mp4" type=video/mp4>
+                </video>
+            </article>
+            <hr>
+            <h3>« Même si réaliser ses rêves n'est pas facile, surtout pour une femme, il faut suivre sa passion ! » ~ Burçin Mutlu-Pakdil</h3>
+        </div>
+
+        <nav id="A2">
+            <h2>Liste des sources:</h2>
+            <ul>
+                <li><a href="https://fr.wikipedia.org/wiki/Bur%C3%A7in_Mutlu-Pakdil">Page Wikipédia de Burçin Mutlu-Pakdil</a></li>
+                <li><a href="https://www.nationalgeographic.fr">Site officiel de NationalGeographic</a></li>
+                <li><a href="https://www.burcinmutlupakdil.net/">Page Web officielle de Burçin Mutlu-Pakdil</a></li>
+            </ul>
+        </nav>
+    </main>
+    <footer>
+        <mark>&copy; 2023 Portraits de Femmes en Sciences</mark>
+    </footer>
+    </div>
+</body>
