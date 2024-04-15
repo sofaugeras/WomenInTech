@@ -88,3 +88,28 @@ mark{
 li {
     list-style-type:none;
 }
+
+/* Style pour les figures */
+.I2 {
+    margin: 10px; /* Ajoute une marge autour de chaque figure */
+    border-radius: 5px; /* Arrondit les coins de l'image */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Ajoute une ombre légère */
+}
+
+.accueilImage {
+    display: flex; /* Utilisation de Flexbox pour les enfants directs */
+    
+}
+
+/* Style pour les figures à l'intérieur du conteneur */
+.accueilImage figure {
+    width: 30%; /* Largeur désirée pour chaque figure */
+    box-sizing: border-box; /* Inclut les marges et les bordures dans la largeur */
+}
+
+/* Style pour les images à l'intérieur des figures */
+.accueilImage figure img {
+    width: 100%; /* Redimensionne les images pour qu'elles occupent 100% de la largeur de leur conteneur */
+    border-radius: 5px; /* Arrondit les coins de l'image */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Ajoute une ombre légère */
+}
