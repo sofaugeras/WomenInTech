@@ -1,0 +1,70 @@
+
+h2 {font-family: 'Roboto', sans-serif;
+	letter-spacing: 1px; 
+	margin-bottom: 0,1px; 
+	margin-left: 10px;
+	font-size: 22px;
+	color: shadow ;
+	}
+h3 {font-family: 'georgia', sans-serif;
+	letter-spacing: 1px; 
+	margin-bottom: 0; 
+	color: rgb(189,0,98) ;
+	}
+p  {font-family:'serif', sans-serif;
+    letter-spacing: 1px;
+	margin-top: 0; 
+	text-align: justify;
+	color: rgb(0,0,0) 
+	}
+figcaption {
+	font-family:'georgia', sans-serif;
+	font-size: 15px;
+	letter-spacing: 1px;
+	margin-top: 0.5em; 
+	text-align: center;
+	color: rgb(205,113,135) 
+	}	
+
+.I {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	}
+a:link { 
+	font-weight: bold; 
+	text-decoration: none; 
+	color: #ffaea6;
+	}
+a:visited { 
+	font-weight: bold; 
+	text-decoration: none; 
+	color: #b80059;
+	}
+a:hover, a:focus, a:active { 
+	text-decoration: underline; 
+	color: #ff0051;
+	}
+
+.article1 {
+		display: inline-block;
+		width: 255px;
+		height: 270px;
+		margin-right: 2em;
+		}
+.article2 {
+		display: inline-block;
+		text-align: center;
+		width: 400px;
+		height: 275px;
+		margin-right: 20px;
+		margin-left: 100px;
+		margin-bottom: 5px;
+		margin-top: 5px;
+		border: 4px solid #ff6347;
+		background-color: #c5cfc8;
+		}
+
+body {
+  background-color: seashell;
+}
