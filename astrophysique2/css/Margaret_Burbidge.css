@@ -1,0 +1,110 @@
+body {
+    background-color: pink;
+    text-align: center;
+
+}
+
+
+h1 {
+    font-family: Lucida Handwriting;
+    font-style: normal;
+    font-size: 3em;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+}
+
+h2 {
+    font-family: 	Times New Roman;
+    font-style: normal;
+    font-size: 2.5em;
+    font-weight: bold;
+    color: pink;
+    text-align: center;
+}
+
+h3 {
+    font-family: Garamond;
+    font-style: normal;
+    font-size: 2.5em;
+    font-weight: bold;
+    color: pink;
+    text-align: left;
+}
+
+p {
+    font-family: Garamond;
+    font-style: normal;
+    font-size: 1.5em;
+    font-weight: normal;
+    color: black;
+    text-align: justify;
+}
+
+a:link {
+  color: #00004d;
+}
+
+a:visited {
+  color: #0000ff;
+}
+
+a:hover {
+  color: hotpink;
+}
+
+a:active {
+  color: black;
+}
+
+
+U  { color: black
+    
+}
+
+
+ul {list-style-type: square;
+    
+}
+
+li{text-align: justify;
+  color: black;  
+    font-family: Garamond;
+    font-style: normal;
+    font-size: 1.5em;
+    
+}
+
+img { border-radius: 8px;
+border : 2px solid #000000;
+text-align: center
+}
+    
+}
+
+div.liens_internes {font-family: sans-serif;
+color: blue
+
+}
+
+div.liens_externes {font-family: sans-serif;
+color:blue
+
+}
+
+
+
+
+
+
+
+
+div.page {
+width: 1500px;
+margin-left: auto;
+margin-right: auto;
+background-color:  #f7ffff; 
+
+
+
+

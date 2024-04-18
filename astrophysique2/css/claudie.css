@@ -1,0 +1,51 @@
+body {
+    background-color: LightSkyBlue;
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px  ;
+}
+
+
+h1 {
+    font-family: Times;
+    font-style: normal;
+    font-size: 2.5em;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+}
+
+h2 {
+    font-family: Times;
+    font-style: normal;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+}
+
+p {
+    font-family: Times;
+    font-style: normal;
+    font-size: 1em;
+    font-weight: normal;
+    color: black;
+    text-align: center;
+}
+
+a {
+
+}
+
+ul {
+    
+}
+
+li{
+    
+}
+
+img {
+    
+}
+

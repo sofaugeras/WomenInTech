@@ -1,0 +1,56 @@
+body {
+    background-color: gray;
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px  ;
+}
+
+
+h1 {
+    font-family: sans-serif;
+    font-style: normal;
+    font-size: 2.5em;
+    font-weight: bold;
+    color: dimgray;
+    text-align: center;
+}
+
+h2 {
+    font-family: sans-serif;
+    font-style: normal;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: dimgray;
+    text-align: left;
+}
+
+p {
+    font-family: serif;
+    font-style: normal;
+    font-size: 1em;
+    font-weight: normal;
+    color: black;
+    text-align: justify;
+}
+
+a:link {
+  color: rgb(18, 20, 22);
+}
+a:visited {
+  color: SlateGray;}
+a:hover {
+  color: hotpink;
+}
+a:active {
+  color: blue;
+}
+
+img { align: center
+    
+}
+div.page {
+width: 1500px;
+margin-left: auto;
+margin-right: auto;
+background-color: lightgray; 
+}

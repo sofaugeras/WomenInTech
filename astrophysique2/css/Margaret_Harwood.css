@@ -1,0 +1,78 @@
+body {
+    background-color: Silver ;
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px  ;
+}
+
+
+h1 {
+    font-family: sans-serif;
+    font-style: normal;
+    font-size: 2.5em;
+    font-weight: bold;
+    color: teal;
+    text-align: center;
+}
+
+h2 {
+    font-family: sans-serif;
+    font-style: normal;
+    font-size: 1.7em;
+    font-weight: bold;
+    color:White ;
+    text-align: center;
+}
+
+p {
+    font-family: serif;
+    font-style: normal;
+    font-size: 1.2em;
+    font-weight: normal;
+    color: teal;
+    text-align: center;
+}
+
+ol {
+  list-style-type: circle;
+  color: black;
+  padding: 5px;
+  margin-left: 35px;
+  font-size: 1em;
+}
+ul {
+  list-style-type: circle;
+  color: black;
+  padding: 5px;
+  margin-left: 35px;
+  font-size: 1em;
+}
+
+
+
+a:link {
+  color: White;
+}
+
+/* visited link */
+a:visited {
+  color: Black;
+}
+
+/* mouse over link */
+a:hover {
+  color: LightSeaGreen;
+}
+
+
+li{
+    
+}
+
+img {
+	display: block;
+  margin: auto;
+  width: 32%;
+    
+}
+

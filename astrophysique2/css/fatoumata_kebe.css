@@ -1,0 +1,78 @@
+body {
+    background-color: Linen;
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px  ;
+}
+
+
+font-family: Helvetica;
+    font-style: normal;
+    font-size: 2.5em;
+    font-weight: bold;
+    color: LightCoral;
+    text-align: center;
+}
+
+h2 {
+    font-family:Georgia, serif;
+    font-style: normal;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: LightCoral;
+    text-align: center;
+}
+
+p {
+    font-family: system-ui;
+    font-style: normal;
+    font-size: 1em;
+    font-weight: normal;
+    color: black;
+    text-align: center;
+}
+
+a { font-family: Arial;
+    font-style: normal;
+    font-size: 1em;
+    font-weight: normal;
+    color: black;
+    text-align: center;
+
+
+}
+
+ul {list-style-image: url('sqpurple.gif');
+list-style-position: inside
+    
+}
+
+li{font-family: Arial;
+    font-style: normal;
+    font-size: 1em;
+    font-weight: normal;
+    color: black;
+    text-align: center;
+    
+}
+
+img {display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+  border-radius: 8px;
+    
+}
+
+ol  { font-family: Arial;
+    font-style: normal;
+    font-size: 1em;
+    font-weight: normal;
+    color: black;
+    text-align: center;
+	
+div.page {
+width: 1500px;
+margin-left: auto;
+margin-right: auto;
+background-color: Linen; }

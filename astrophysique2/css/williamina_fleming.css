@@ -1,0 +1,63 @@
+body {
+    background-color: lightblue;
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px  ;
+}
+
+
+h1 {
+    font-family: Britannic Bold;
+    font-style: normal;
+    font-size: 3em;
+    font-weight: bold;
+    color: navy;
+    text-align: center;
+}
+
+h2 {
+    font-family: goody stoot;
+    font-style: normal;
+    font-size: 2em;
+    font-weight: bold;
+    color: royalblue;
+    text-align: left;
+}
+
+p {
+    font-family: serif;
+    font-style: normal;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: navy;
+    text-align: justify;
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+{
+  margin-top:100px;
+  margin-bottom:100px;
+  margin-right:150px;
+  margin-left:80px;
+}
+
+a {
+
+}
+
+ul {
+    
+}
+
+li{
+    
+}
+
+img {
+    
+}
+
